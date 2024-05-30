@@ -10,7 +10,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import org.junit.Test
 
-class MainActivityTest {
+class CoroutineBasics {
     @Test
     fun `executing suspending functions sequentially`(): Unit = runBlocking {
         val startTime = System.currentTimeMillis()
